@@ -1,0 +1,33 @@
+[submodule "IconFontCppHeaders"]
+	path = 3rdparty/IconFontCppHeaders
+	url = https://github.com/juliettef/IconFontCppHeaders.git
+[submodule "imgui"]
+	path = 3rdparty/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "imgui_markdown"]
+	path = 3rdparty/imgui_markdown
+	url = https://github.com/enkisoftware/imgui_markdown.git
+[submodule "imgui-knobs"]
+	path = 3rdparty/imgui-knobs
+	url = https://github.com/enkisoftware/imgui-knobs.git
+[submodule "imgui-node-editor"]
+	path = 3rdparty/imgui-node-editor
+	url = https://github.com/thedmd/imgui-node-editor.git
+[submodule "imgui-notify"]
+	path = 3rdparty/imgui-notify
+	url = https://github.com/patrickcjk/imgui-notify.git
+[submodule "ImGuiColorTextEdit"]
+	path = 3rdparty/ImGuiColorTextEdit
+	url = https://github.com/BalazsJako/ImGuiColorTextEdit.git
+[submodule "ImGuiFileDialog"]
+	path = 3rdparty/ImGuiFileDialog
+	url = https://github.com/aiekick/ImGuiFileDialog.git
+[submodule "ImGuizmo"]
+	path = 3rdparty/ImGuizmo
+	url = https://github.com/CedricGuillemet/ImGuizmo.git
+[submodule "implot"]
+	path = 3rdparty/implot
+	url = https://github.com/epezent/implot.git
+[submodule "SDL"]
+	path = 3rdparty/SDL
+	url = https://github.com/libsdl-org/SDL.git
