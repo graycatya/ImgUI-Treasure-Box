@@ -1,5 +1,5 @@
-cmake_minimum_required (VERSION 3.0)
-cmake_policy(VERSION 3.0)
+cmake_minimum_required (VERSION 3.5)
+cmake_policy(VERSION 3.5)
 
 
 project(imgui-glfw C CXX)
@@ -35,7 +35,7 @@ add_library(${PROJECT_NAME} STATIC
     ${SRC_LIST}
 )
 
-target_link_libraries(${PROJECT_NAME} PUBLIC ${LIBS} imgui)
+target_link_libraries(${PROJECT_NAME} PUBLIC ${GLFW3_LIBRARY} imgui)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/../../3rdparty/imgui/backends"
